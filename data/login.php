@@ -6,7 +6,9 @@ include("loginserv.php");
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login</title>
+<title>사설 웹 사이트</title>
+<link rel="shortcut icon" type="image/png" href="icon.png">
+
 <style>
 .login{
 width:360px;
@@ -38,10 +40,11 @@ border-radius:5px;
 margin-bottom:15px; 
 </style>
 </head>
-<body>
+<body background="background.jpeg">
 <div class="login">
-<h1 align="center">Login</h1>
-<form action="" method="post" style="text-align:center;">
+<center>	<img src="sample.png" alt="a" height="150" width="150"> </center>
+<h1 align="center"><span>Private Account</span></h1><form action="" method="post" style="text-align:center;">
+
 <input type="text" placeholder="Username" id="user" name="user"><br/><br/>
 <input type="password" placeholder="Password" id="pass" name="pass"><br/><br/>
 <input type="submit" value="Login" name="submit">
